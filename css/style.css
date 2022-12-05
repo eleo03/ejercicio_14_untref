@@ -57,6 +57,20 @@ main {
 
 }
 
+@media screen and (orientation: landscape) {
+    main {
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .img-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 1rem;
+    }
+}
+
+
 /* TABLET */
 @media (min-width: 768px) and (max-width: 1024px) {
     article {
